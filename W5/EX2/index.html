@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inbox Sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="menu-icons">
+        <div class="icon"><i class="fa-solid fa-house"></i></div>
+        <div class="icon"><i class="fa-solid fa-clipboard-list"></i></div>
+        <div class="icon"><i class="fa-solid fa-paper-plane"></i></div>
+        <div class="icon"><i class="fa-solid fa-message"></i></div>
+        <div class="icon"><i class="fa-solid fa-bookmark"></i></div>
+      </div>
+      <div class="inbox">
+        <header>
+          <h2>Inbox</h2>
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </header>
+
+        <div class="conversation">
+          <p class="title">conversations</p>
+          <div class="conversation-item">
+            <span class="label">You</span>
+            <span class="count">5</span>
+          </div>
+          <div class="conversation-item">
+            <span class="label"><i class="fa-solid fa-at"></i><span style="margin: 10px;">Mentions</span></span>
+            <span class="count">2</span>
+          </div>
+          <div class="conversation-item selected">
+            <span class="label"><i class="fa-solid fa-user-group"></i><span style="margin: 10px;">All</span></span>
+            <span class="count">234</span>
+          </div>
+          <div class="conversation-item">
+            <span class="label"><i class="fa-solid fa-user"></i><span style="margin: 10px;">Unassigned</span></span>
+            <span class="count">20</span>
+          </div>
+          <div class="conversation-item">
+            <span class="label"><i class="fa-solid fa-star"></i><span style="margin: 10px;">Sales</span></span>
+            <span class="count">142</span>
+          </div>
+          <div class="conversation-item">
+            <span class="label"><i class="fa-solid fa-question"></i><span style="margin: 10px;">Support</span></span>
+            <span class="count">4</span>
+          </div>
+          <div class="conversation-item">
+            <span class="label"><i class="fa-solid fa-earth-americas"></i><span style="margin:10px;">Global Sales</span></span>
+            <span class="count">23</span>
+          </div>
+        </div>
+        <div class="hidden">
+          <p class="show-hidden">Show 20 hidden</p>
+          <p><i class="fa-solid fa-gear"></i></p>
+        </div>
+      
+      </div>
+    </div>
+  </body>
+</html>

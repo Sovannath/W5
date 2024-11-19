@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="cart-container">
+        <!-- Left Section: Cart Items -->
+        <div class="cart-items">
+            <h2>Cart</h2>
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <img src="./img/case.png" alt="T-shirt">
+                <div class="item-details">
+                    <h3>Iphone Case</h3>
+                    <p>$12.99 <span class="in-stock">In Stock</span></p>
+                    <div class="options">
+                        <span> - </span>
+                        <span>customizable</span>
+                        <div class="quantity">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <p>$12.99</p>
+                    <div class="actions">
+                      <button><i class="fa-solid fa-heart"></i><span  style="margin:3px ;">Save</span></button>
+                      <button><i class="fa-solid fa-trash"></i><span span style="margin: 3px;">Delete</span></button>
+                  </div>
+                </div>
+            </div>
+            <!-- item2 -->
+            <div class="cart-item">
+                <img src="./img/lamp.png" alt="hat">
+                <div class="item-details">
+                    <h3>Long Lamp</h3>
+                    <p>$45.00 <span class="available">Available in 2 days</span></p>
+                    <div class="options">
+                        <span>-</span>
+                        <span>-</span>
+                        <div class="quantity">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <p>$45.00</p>
+                    <div class="actions">
+                        <button><i class="fa-solid fa-heart"></i><span  style="margin:3px ;">Save</span></button>
+                        <button><i class="fa-solid fa-trash"></i><span span style="margin: 3px;">Delete</span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- item3 -->
+            <div class="cart-item">
+                <img src="./img/watch.png" alt="sneakers">
+                <div class="item-details">
+                    <h3>Watch</h3>
+                    <p>$129.99 <span class="in-stock">In Stock</span></p>
+                    <div class="options">
+                        <span>-</span>
+                        <span>customizable</span>
+                        <div class="quantity">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <p>$129.99</p>
+                    <div class="actions">
+                      <button><i class="fa-solid fa-heart"></i><span  style="margin:3px ;">Save</span></button>
+                      <button><i class="fa-solid fa-trash"></i><span span style="margin: 3px;">Delete</span></button>
+                  </div>
+                </div>
+            </div>
+            <!-- item4 -->
+            <div class="cart-item">
+                <img src="./img/shorts.png" alt="suit">
+                <div class="item-details">
+                    <h3>Summer Shorts</h3>
+                    <p>$9.99 <span class="in-stock">In Stock</span></p>
+                    <div class="options">
+                        <span>L</span>
+                        <span>customizable</span>
+                        <div class="quantity">
+                            <button>-</button>
+                            <input type="text" value="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <p>$9.99</p>
+                    <div class="actions">
+                      <button><i class="fa-solid fa-heart"></i><span  style="margin:3px ;">Save</span></button>
+                      <button><i class="fa-solid fa-trash"></i><span span style="margin: 3px;">Delete</span></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Section: Delivery & Summary -->
+        <div class="cart-summary">
+            <h2>Delivery</h2>
+            <div class="delivery-options">
+                <span style="color: green;font-weight: bold;" >Free</span> 
+                <span>Express: $9.99</span>
+            </div>
+            <p>Delivery date: June 24, 2022</p>
+            <div class="promo-section">
+                <input type="text" placeholder="Promocode">
+                <button>Apply</button>
+            </div>
+            <p>20% off discount</p>
+            <div class="summary-details">
+                <p>Subtotal <span>$197.97</span></p>
+                <p>Discount <span>(20%) -$39.59</span></p>
+                <p>Delivery <span>$0.00</span></p>
+                <p>Tax <span>$14.00</span></p>
+                <h3>Total <span>$172.38</span></h3>
+            </div>
+            <button class="checkout">Proceed to checkout</button>
+            <button class="continue">Continue shopping</button>
+        </div>
+    </div>
+</body>
+</html>
